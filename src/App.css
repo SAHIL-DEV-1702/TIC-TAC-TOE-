@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.board-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid rgba(49, 68, 174, 0.594);
+  padding: 20px;
+  background-color: aquamarine;
+  filter: blur(0.2px);
+  border-radius: 12px;
+
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.386);
+  border-radius: 12px;
+  font-size: x-large;
+  color: rgba(77, 119, 202, 0.941);
+
+}
+
+#play-again-btn {
+
+  height: 100px;
+  width: 160px;
+  background-color: rgba(137, 43, 226, 0.587);
+  border: 1px solid black;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60%;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
